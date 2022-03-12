@@ -38,7 +38,12 @@ export def getPercentIntoToday currentDate
 	const msIntoToday = currentDate.getTime() - df.startOfDay(currentDate).getTime()
 	const msInDay = 1000 * 60 * 60 * 24
 	const percentIntoToday = msIntoToday / msInDay
-	
+
+export def getPercentIntoCurrentHour currentDate
+	const msIntoCurrentHour = currentDate.getTime() - df.startOfHour(currentDate).getTime()
+	const msInHour = 1000 * 60 * 60
+	const percentIntoToday = msIntoCurrentHour / msInHour
+
 # ----------
 
 def radToDeg radians
