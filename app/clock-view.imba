@@ -260,33 +260,40 @@ export tag clock-view
 					<path .target d="M474.373 2.06596C496.359 0.60337 518.149 0.581913 539.645 1.92511L533.692 92.7479C516.116 91.6572 498.3 91.6787 480.325 92.8744L474.373 2.06596Z" >
 					# <title> getTitle(47)
 
-				# tick mark lines
+				# tick mark lines longer (main hours)
 				<g.lines>
 					<path d="M507 845V925" stroke="black" stroke-linecap="round">
 					<path d="M507 92V172" stroke="black" stroke-linecap="round">
 					<path d="M924 509H844" stroke="black" stroke-linecap="round">
 					<path d="M181 508H91" stroke="black" stroke-linecap="round">
-					<path d="M409.554 872.171L399.201 910.808" stroke="black" stroke-linecap="round">
+
+				# tick mark lines shorter (minutes)
+				<g.lines>
 					<path d="M318.75 834.559L298.75 869.2" stroke="black" stroke-linecap="round">
-					<path d="M240.774 774.726L212.49 803.01" stroke="black" stroke-linecap="round">
 					<path d="M180.941 696.75L146.3 716.75" stroke="black" stroke-linecap="round">
-					<path d="M143.328 605.945L104.691 616.298" stroke="black" stroke-linecap="round">
-					<path d="M143.328 411.054L104.691 400.702" stroke="black" stroke-linecap="round">
 					<path d="M180.941 320.25L146.3 300.25" stroke="black" stroke-linecap="round">
-					<path d="M240.774 242.274L212.49 213.99" stroke="black" stroke-linecap="round">
 					<path d="M318.75 182.441L298.75 147.8" stroke="black" stroke-linecap="round">
-					<path d="M409.554 144.829L399.202 106.192" stroke="black" stroke-linecap="round">
-					<path d="M614.798 106.192L604.445 144.829" stroke="black" stroke-linecap="round">
 					<path d="M715.25 147.8L695.25 182.441" stroke="black" stroke-linecap="round">
-					<path d="M801.51 213.99L773.225 242.274" stroke="black" stroke-linecap="round">
 					<path d="M867.699 300.25L833.058 320.25" stroke="black" stroke-linecap="round">
-					<path d="M909.308 400.702L870.671 411.055" stroke="black" stroke-linecap="round">
-					<path d="M909.308 616.298L870.671 605.945" stroke="black" stroke-linecap="round">
 					<path d="M867.699 716.75L833.058 696.75" stroke="black" stroke-linecap="round">
-					<path d="M801.51 803.01L773.225 774.726" stroke="black" stroke-linecap="round">
 					<path d="M715.25 869.2L695.25 834.559" stroke="black" stroke-linecap="round">
-					<path d="M614.798 910.808L604.445 872.171" stroke="black" stroke-linecap="round">
-				
+
+				# tick mark lines shorter (other)
+				# <g.lines>
+				# 	<path d="M409.554 872.171L399.201 910.808" stroke="black" stroke-linecap="round">				
+				# 	<path d="M240.774 774.726L212.49 803.01" stroke="black" stroke-linecap="round">
+				# 	<path d="M143.328 605.945L104.691 616.298" stroke="black" stroke-linecap="round">
+				# 	<path d="M143.328 411.054L104.691 400.702" stroke="black" stroke-linecap="round">
+				# 	<path d="M240.774 242.274L212.49 213.99" stroke="black" stroke-linecap="round">
+				# 	<path d="M409.554 144.829L399.202 106.192" stroke="black" stroke-linecap="round">
+				# 	<path d="M614.798 106.192L604.445 144.829" stroke="black" stroke-linecap="round">
+				# 	<path d="M801.51 213.99L773.225 242.274" stroke="black" stroke-linecap="round">
+				# 	<path d="M909.308 400.702L870.671 411.055" stroke="black" stroke-linecap="round">
+				# 	<path d="M909.308 616.298L870.671 605.945" stroke="black" stroke-linecap="round">
+				# 	<path d="M801.51 803.01L773.225 774.726" stroke="black" stroke-linecap="round">
+				# 	<path d="M614.798 910.808L604.445 872.171" stroke="black" stroke-linecap="round">
+
+				# hour numbers
 				<g.numbers>
 					<text x="503" y="20" fill="black"> '0'
 					<text x="630" y="38" fill="black"> '1'
